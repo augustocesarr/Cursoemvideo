@@ -24,7 +24,7 @@ variavel = Garfanhoto(nome, idade)
 # Declaração de Objetos
 g1 = Garfanhoto("Maria", 17)
 g1.aniversario()
-#print(g1)
+print(g1)
 
 print(g1.__dict__) # Attribute
 print(g1.__getstate__()) # Method - Ele pode ser personalizado, programando um Estado para ser mostrado
